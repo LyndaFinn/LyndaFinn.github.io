@@ -18,7 +18,7 @@ logo        : my_logo.png
 
  * The census data is from 2013. I chose some of the most interesting variables  for plotting. It can be found here: http://quickfacts.census.gov/qfd/download_data.html
 
- * The application was based on the the shiny tutorial lesson 5, but I altered signicantly. The original tutorial can be seen here: http://shiny.rstudio.com/tutorial/lesson5/
+ * The application was based on the the shiny tutorial lesson 5, but I altered it significantly. The original tutorial can be seen here: http://shiny.rstudio.com/tutorial/lesson5/
 
 --- .class #id 
 
@@ -29,9 +29,9 @@ In my code, I made the following modifications to the shiny tutorial:
 * I used a wider set of census variables from a more up to date data source
 * I modified the map coloring to be in the heatmap style
 * I improved and corrected the labeling of the map categories. 
- * Each category now represents 20% of the data. This was necessary to plot such variables as population, because of its extreme skewness. Without the modification, the map was almost the lowest category (allyellow) 
+ * Each category now represents 20% of the data. This was necessary to plot such variables as population, because of its extreme skewness. Without the modification, the map was almost the lowest category (all yellow) 
   * In the original, the categories were improperly labeled with cutpoints, not ranges or midpoints
-* I generalized the approach variables other than percentages could be plotted
+* I generalized the approach so that variables other than percentages could be plotted
 
 --- .class #id 
 
